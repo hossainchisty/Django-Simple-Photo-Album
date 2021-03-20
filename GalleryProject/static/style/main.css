@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: scroll;   
+    background-color: #99cc99;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background:#05193E;    
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-image: radial-gradient( circle 732px at -23.9% -25.1%,  rgba(30,39,107,1) 6.1%, rgba(188,104,142,1) 100.2% );
+}
+::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.jumbotron {
+    color: #fff;
+    background-image: url("https://images.unsplash.com/photo-1520991459559-9b3b6ec6a52b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80");
+
+    /* background-image: url("/static/image/3.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh; 
+}
+
+#main-image{
+    cursor: pointer;
+    transform: scale(0);
+    transition: .3s ease;
+}
+#main-image:hover{
+    filter: grayscale(100%);
+}
