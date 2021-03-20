@@ -1,4 +1,6 @@
 ## Photo-Gallery-app
+
+## How To Setup
 1. Clone This Project `git clone https://github.com/hossainchisty/Photo-Gallery-app.git`
 2. Enter Project Directory `cd Photo-Gallery-app`
 3. Create a Virtual Environment `virtualenv env`
