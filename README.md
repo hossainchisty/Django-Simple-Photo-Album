@@ -1,6 +1,6 @@
 ## Photo-Gallery-app
 1. Clone This Project `git clone https://github.com/hossainchisty/Photo-Gallery-app.git`
-2. Enter Project Directory `cd personal_portfolio`
+2. Enter Project Directory `cd Photo-Gallery-app`
 3. Create a Virtual Environment `virtualenv env`
 4. Activate Virtual Environment `source env/bin/activate`
 5. Install Requirements Package `pip install -r requirements.txt`
