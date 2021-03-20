@@ -9,4 +9,4 @@
 8. Finally Run The Project `python manage.py runserver`
 ## Photo-Gallery-app
 ## Preview
-![Image of demo](https://github.com/hossainchisty/Photo-Gallery-app/blob/master/GalleryProject/FinalDemo.png)
+![Image of demo](https://github.com/hossainchisty/Photo-Gallery-app/blob/master/FinalDemo.png)
