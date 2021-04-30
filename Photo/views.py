@@ -8,7 +8,6 @@ def home(request):
         form = GalleryForm(request.POST, request.FILES)
         if form.is_valid():
           form.save()
-          print(form)
     form =  GalleryForm()
 
     handle_image = Gallery.objects.all()
